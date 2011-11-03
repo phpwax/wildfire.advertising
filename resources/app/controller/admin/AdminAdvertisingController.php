@@ -1,0 +1,3 @@
+<?
+class AdminAdvertisingController extends CMSAdminAdvertisingController{}
+?>
