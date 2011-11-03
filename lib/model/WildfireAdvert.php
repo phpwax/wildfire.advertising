@@ -19,5 +19,13 @@ class WildfireAdvert extends WaxModel{
     if(!$this->link) $this->link = "http://";
   }
   
+  public function permalink(){
+    return "/ad/r/".md5($this->primval)."/";
+  }
+  
+  public function ad(){
+    return $this->files->first();
+  }
+  
 }
 ?>
