@@ -9,3 +9,5 @@ will look for an advert of type mpu and a view called mpu. You could use:
 <?=partial("ad/all", array("advert_type"=>"mpu"))?>
 
 and it will still look for an mpu type, but the view will be all.html instead of mpu.html.
+
+USES V6
